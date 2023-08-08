@@ -77,6 +77,7 @@ public class CareerPage extends BasePage{
         locationButton.sendKeys(location);
         Driver.get().findElement(By.xpath("//li[text()='Ankara, Ankara Province, Turkey']")).click();
         Driver.get().switchTo().defaultContent();
+        //
     }
 
     public void addResume(){
